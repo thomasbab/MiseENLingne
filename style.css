@@ -165,11 +165,13 @@
 }
 
 .nav-bar{
-  
+  color: rgba(0,0,0,.55);
+  text-decoration: none;
+  margin-left: 20px;
 }
 
 .nav-link {
-  width: 15%;
+  width: 17%;
 }
 
 .cards-flex {
