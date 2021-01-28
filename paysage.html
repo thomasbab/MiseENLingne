@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Portfolio</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 		<script src="https://kit.fontawesome.com/bd818f02d4.js" crossorigin="anonymous"></script>
@@ -12,24 +13,38 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-lights">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="https://thomasbab.github.io/MiseENLingne/">Thomas BABOT</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
-			</button>
-			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			   <div class="navbar-nav">
-			    <a class="nav-link" href="presentation.html">Présentation</a>
-			    <a class="nav-link" href="portrait.html">Portraits</a>
-			    <a class="nav-link active" aria-current="page" href="paysage.html">Paysages</a>
-			    <a class="nav-link" href="artiste.html">Artistes</a>
-			    <a class="nav-link" href="evenementiel.html">Evénementiel</a>
-			    <a class="nav-bar" href="https://www.instagram.com/thomasbab/"><i class="fab fa-instagram fa-2x"></i></a>
-			   </div>
-			  </div>
+			<div class="button">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		      <ul class="navbar-nav">
+		       	<li class="nav-item">
+		        <a class="nav-link" href="presentation.html">Présentation</a>
+		        </li>
+		        <li class="nav-item">
+		        <a class="nav-link" href="portrait.html">Portraits</a>
+		        </li>
+		        <li class="nav-item">
+		        <a class="nav-link active" href="paysage.html">Paysages</a>
+		        </li>
+		        <li class="nav-item">
+		        <a class="nav-link" href="artiste.html">Artistes</a>
+		        </li>
+		        <li class="nav-item">
+		        <a class="nav-link" href="evenementiel.html">Evénementiel</a>
+		        </li>
+		        <li class="nav-item">
+		        <a class="nav-bar" href="https://www.instagram.com/thomasbab/"><i class="fab fa-instagram fa-2x"></i></a>
+		        </li>
+		      </ul>
+		    </div>
 		</div>
 	</nav>
 	</div>
 	
-	<div class="Fond">
+	<div class="Fondtitre">
 		<div class="Titre">
 			<h1> Paysages</h1>
 		</div>
@@ -48,14 +63,32 @@
 		    <div class="carousel-item active">
 		      <img src="Image/us.jpg" class="d-block w-100" alt="...">
 		      <div class="carousel-caption d-none d-md-block">
-		        <h5>Etats Unis</h5>
+		        <div class="text a">
+	    			<a href="lieu1.html"><h5>lieu1</h5>
+	    			<br> 
+	    			<p>Voir la galerie</p><a/>
+	    		</div>
 		      </div>
 		    </div>
 		    <div class="carousel-item">
 		      <img src="Image/us2.jpg" class="d-block w-100" alt="...">
+		      <div class="carousel-caption d-none d-md-block">
+		        <div class="text a">
+	    			<a href="lieu2.html"><h5>lieu2</h5>
+	    			<br> 
+	    			<p>Voir la galerie</p><a/>
+	    		</div>
+		      </div>
 		    </div>
 		    <div class="carousel-item">
 		      <img src="Image/us3.jpg" class="d-block w-100" alt="...">
+		      <div class="carousel-caption d-none d-md-block">
+		        <div class="text a">
+	    			<a href="lieu3.html"><h5>lieu3</h5>
+	    			<br> 
+	    			<p>Voir la galerie</p><a/>
+	    		</div>
+		      </div>
 		    </div>
 		  </div>
 		  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
@@ -80,6 +113,9 @@
 	            <input text="texte" id="mail" placeholder="Votre email"><input type="submit" value="OK" class="button-3">       </form>
 	        </div>
     	</section> 
+    	<div class="copyright">
+    	<p class="">© Copyright - Thomas Babot 2021</p>
+    	</div>	
     </footer>
 
 

@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Portfolio</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 		<script src="https://kit.fontawesome.com/bd818f02d4.js" crossorigin="anonymous"></script>
@@ -11,22 +12,36 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-lights">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="https://thomasbab.github.io/MiseENLingne/">Thomas BABOT</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
-			</button>
-			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			   <div class="navbar-nav">
-			    <a class="nav-link" href="presentation.html">Présentation</a>
-			    <a class="nav-link" href="portrait.html">Portraits</a>
-			    <a class="nav-link" href="paysage.html">Paysages</a>
-			    <a class="nav-link" href="artiste.html">Artistes</a>
-			    <a class="nav-link active" aria-current="page" href="evenementiel.html">Evénementiel</a>
-			    <a class="nav-bar" href="https://www.instagram.com/thomasbab/"><i class="fab fa-instagram fa-2x"></i></a>
-			   </div>
-			  </div>
+			<div class="button">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		      <ul class="navbar-nav">
+		       	<li class="nav-item">
+		        <a class="nav-link" href="presentation.html">Présentation</a>
+		        </li>
+		        <li class="nav-item">
+		        <a class="nav-link" href="portrait.html">Portraits</a>
+		        </li>
+		        <li class="nav-item">
+		        <a class="nav-link" href="paysage.html">Paysages</a>
+		        </li>
+		        <li class="nav-item">
+		        <a class="nav-link" href="artiste.html">Artistes</a>
+		        </li>
+		        <li class="nav-item">
+		        <a class="nav-link active" href="evenementiel.html">Evénementiel</a>
+		        </li>
+		        <li class="nav-item">
+		        <a class="nav-bar" href="https://www.instagram.com/thomasbab/"><i class="fab fa-instagram fa-2x"></i></a>
+		        </li>
+		      </ul>
+		    </div>
 		</div>
 	</nav>
-	<div class="Fond">
+	<div class="Fondtitre">
 		<div class="Titre">
 			<h1> Evénementiel</h1>
 		</div>
@@ -53,7 +68,7 @@
 	  			<div class="card-body">
 	    		<h5 class="card-title">Mariages</h5>
 	    		<p class="card-text">Photos réalisées pendant des mariages</p>
-	    		<a href="concert.html" class="btn btn-primary">Voir la galerie</a>
+	    		<a href="mariage.html" class="btn btn-primary">Voir la galerie</a>
 	  			</div>
 		</div>
 		<div class="card" style="width: 18rem;">
@@ -61,7 +76,7 @@
 	  			<div class="card-body">
 	    		<h5 class="card-title">Afterworks</h5>
 	    		<p class="card-text">Photos réalisées pendant des afterworks</p>
-	    		<a href="soir.html" class="btn btn-primary">Voir la galerie</a>
+	    		<a href="after.html" class="btn btn-primary">Voir la galerie</a>
 	  			</div>
 		</div>
 		<div class="card" style="width: 18rem;">
@@ -69,7 +84,7 @@
 	  			<div class="card-body">
 	    		<h5 class="card-title">Festivals</h5>
 	    		<p class="card-text">Photos réalisées pendant des festivals</p>
-	    		<a href="concert.html" class="btn btn-primary">Voir la galerie</a>
+	    		<a href="festivals.html" class="btn btn-primary">Voir la galerie</a>
 	  			</div>
 		</div>
 		<div class="card" style="width: 18rem;">
@@ -77,7 +92,7 @@
 	  			<div class="card-body">
 	    		<h5 class="card-title">Manifestations</h5>
 	    		<p class="card-text">Photos réalisées pendant des manifestations</p>
-	    		<a href="soir.html" class="btn btn-primary">Voir la galerie</a>
+	    		<a href="manif.html" class="btn btn-primary">Voir la galerie</a>
 	  			</div>
 		</div>
 	</div>
@@ -93,8 +108,13 @@
 	            <input text="texte" id="mail" placeholder="Votre email"><input type="submit" value="OK" class="button-3">       </form>
 	        </div>
     	</section> 
+    	<div class="copyright">
+    	<p class="">© Copyright - Thomas Babot 2021</p>
+    	</div>	
     </footer>
 	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 	
 	</body>
+
+</html>
